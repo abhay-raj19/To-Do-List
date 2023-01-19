@@ -4,7 +4,7 @@ const bodyparser=require("body-parser");
 
 
 mongoose.set("strictQuery", false);
-mongoose.connect('mongodb://127.0.0.1:27017/todolistDB');
+mongoose.connect("mongodb+srv://abhay-raj19:7084851789@todo.yfc1nzj.mongodb.net/TodolistDB");
 
 const itemsSchema ={
     name: String
